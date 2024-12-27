@@ -21,15 +21,19 @@
 
     .cat {
       background-color: aquamarine;
+      float: left;
     }
 
     .dog {
       background-color: coral;
+      float: right;
     }
 
     footer {
       text-align: center;
       background-color: blueviolet;
+      clear: left;
+      clear: right;
     }
   </style>
 </head>
@@ -38,7 +42,7 @@
   <div class="cat">
     <h2>CatCSS</h2>
 
-    <img src="cat.jpeg" alt="cat in a box" />
+    <img src="cat.jpeg" alt="cat in a box" class="cat" />
     <p class="first-paragraph">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
       poochy. Sleep on keyboard
       toy
@@ -48,7 +52,7 @@
   </div>
   <div class="dog">
     <h2>DogCSS</h2>
-    <img src="dog.jpeg" alt="dogs in a box" />
+    <img src="dog.jpeg" alt="dogs in a box" class="cat" />
     <p class="second-paragraph">Heckin good boys and girls long woofer big ol wow very biscit long woofer heck what a
       nice
       floof, long doggo noodle
