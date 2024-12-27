@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box{
+      height: 300px;
+      width: 500px;
+      position: absolute;
+      background-color: blue;
+      top: 200px;
+      left: 200px;
+    }
+    .red-circle{
+      border: sold white;
+      border-radius: 10px;
+      background-color: red;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+    .red-circle > button{
+      background-color: yellow;
+      margin: 90px 75px;
+    }
+    .red-circle > button:hover{
+      background-color: aqua;
+    }
+    .red-circle:hover{
+      background-color: blue;
+      border: solid black;
+      border-width: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+      <button>hello</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
